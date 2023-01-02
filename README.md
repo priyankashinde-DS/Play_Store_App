@@ -21,7 +21,83 @@ I decided to move ahead with the project in 5 steps as breaking down a problem i
 
 ![image](https://user-images.githubusercontent.com/87980985/210269652-caf2f377-64a2-4091-a7cc-259174321af0.png)
 
+# Data visualization
+
+##  **Installs** 
+  This feature shows how many times an application has been downloaded from the Google Play Store.
+  
+  ![image](https://user-images.githubusercontent.com/87980985/210270704-62dd5891-0bd3-4f18-8fff-68442a5bf6c0.png)
+  
+The above figure gives us the impression that the applications have been downloaded at least once and at maximum more than one billion times.
+The most number of applications are with over 1 million and less than 5 million installs.
+There are **only 20 applications in Big Billion Club.**
+
+## **Top Category & Genres with Rating**
+
+![image](https://user-images.githubusercontent.com/87980985/210270956-0a5458d7-d96a-482b-b10b-0dc7a4e9cdf0.png)
+
+**Gaming** category is clearly at the top of the chart with most installations and an average rating of 4.25.
+Communication just falls short of Game in terms of installations and is ranked second in the most installed category.
+
+![image](https://user-images.githubusercontent.com/87980985/210271106-73b31e1c-ced5-470e-830b-4e41c31cc7b9.png)
+
+Genres are the sub categories of the feature category so there few categories are divided into the genres and some are not.
+From the feature category we have seen that "Communication" is at second place but in genres it's top the chart because "Communication" have only one genre that is "Communication" itself but in the case of categry "Game" it is divided into many genres.
+Genres doesn't seems to have lot of impact on user's dicision making as it only the sub part of category.
+
+## **Application type**
+
+![image](https://user-images.githubusercontent.com/87980985/210271299-54be0f5d-ea5e-4089-bbec-490ee643c1a4.png)
+
+it's clearly visible that there are maximum number of Free applications in the data set ,which is about 92.6 % of total applications.
+
+## **Content rating**
+
+![image](https://user-images.githubusercontent.com/87980985/210271504-4cda1fc5-a51e-41c1-8c60-50efa693ac64.png)
+
+We observe significant relationships between the Install and Contain Rating in the above plots.Applications with content rating type "Everyone", "Everyone 10+" and "Teen" have the most installations, with an average rating exceeding 4.2.
+"Everyone" have the most number of counts and installations,followed by "Teen".
+
+## **Android version**
+
+![image](https://user-images.githubusercontent.com/87980985/210271653-2d9a5f84-c479-472c-a835-31ebb35e80b0.png)
+
+Android Version "Varies with device " has the most number of total installs and permitted android minimum version which started with release version 4 has appeared in the chart most.
+Android Version "Varies with device " has the most number of total installs because Google Play allows developers to upload multiple APKs for the same app and user get freedom to download APKs according to device's version.
+Applications which permitts short range of applications version , applications which permitts only latest android versions have less installs.
+
+## **Correlation**
+
+![image](https://user-images.githubusercontent.com/87980985/210271736-6151ea30-0a28-4056-88ff-3c04eee3e386.png)
+
+
+1.Reviews have highest Positive Correleation with Installs with correlation value of +0.62.
+It Shows that as the number of installations increased,the number of reviews also increases.
+2.Price is only variable which have Negative Correleation between with the Installs with correleation value of -0.0097.
+This indiacates as the price of appliaction decreases,the number of installations increases.
+1.Rating also Negatively correlated with the Price with correlation value of -0.021.
+Higher priced get low rating with compared to low priced appliactions.
+
+
 # User reviews dateset
 
 ![image](https://user-images.githubusercontent.com/87980985/210269852-a5b3ee3e-85a3-48cd-9af0-e0d5710b1dd4.png)
+
+
+## **Sentiment**
+**1. Positive 😍
+
+**2. Negative 😠
+
+**3. Neutral 😑
+
+![image](https://user-images.githubusercontent.com/87980985/210271797-b5cdae00-b5fa-43bf-99eb-c1f852d2b2ec.png)
+
+## **Sentiment analysis**
+
+![image](https://user-images.githubusercontent.com/87980985/210271883-a8097c81-be81-45dd-8bba-feef656c22a3.png)
+
+The mean of subjectivity is 0.50 and 50 % of subjectivity values lies between 0.35 to 0.65.
+According to standard practices, 0.50 is a good subjectivity score, and we will not discard the values with higher subjectivity, since the mean subjectivity score for data is 0.492770..
+The mean value of sentiment polarity is 0.182171 and 50% of the values lie between 0 and 0.40, for this reason 64.00 % of sentiments are positive.
 
