@@ -101,3 +101,24 @@ The mean of subjectivity is 0.50 and 50 % of subjectivity values lies between 0.
 According to standard practices, 0.50 is a good subjectivity score, and we will not discard the values with higher subjectivity, since the mean subjectivity score for data is 0.492770..
 The mean value of sentiment polarity is 0.182171 and 50% of the values lie between 0 and 0.40, for this reason 64.00 % of sentiments are positive.
 
+# CONCLUSION
+
+1.Because the average rating for an application is 4.17, and most applications get between 3.8 and 4.5 ratings, it is hard to determine an application's success solely based on its rating.
+
+2.The number of installations is a very good indicator of an app's success and engagement. Only twenty apps have more than 1 billion installations.
+
+3.From the data it's clearly visible that User's like to install Free applications.Approximately 93% of the apps in the Google Play Store are free to download, and the price is negatively correlated with both installs and ratings.
+
+4.Small sized applications are installed more, but for higher installed applications amounts, big sized apps are also more prevalent.
+
+5.Even though category GAME has the highest total installs, category COMMUNICATION is the most successful category due to the highest average installs, higher percentage of positive sentiment, and six apps with more than billion installs compared to just one app from category GAME.
+
+6The Top apps according to Installs and Positive Sentiment's percentage fall under content rating EVERYONE and Android version VARIES BY DEVICE, suggesting users like freedom.
+
+7.App's updated at latest have the highest installs and good rating,which indicates user's tends to download app's which are latest.
+
+8.Positive sentiment's for app's under the category HEALTH_AND_FITNESS are the highest.
+
+9.About 63% of sentiments are positive and the Top 10 categories also have a positive sentiments percentage around 60%, except GAME which has a 56% positivity rate..
+
+### Using this project, we examine the factors that determine a user's decision to download an app, and the factors that determine its success and enrolment.
